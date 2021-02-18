@@ -38,7 +38,8 @@ h1{
   width: 650px;
   height: 440;
   margin: auto;
-  min-width: 300px;
+   min-width: 450px;
+  max-height: 450px;
 }
 
 h2{
