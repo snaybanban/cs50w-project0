@@ -34,7 +34,8 @@ h1{
   padding: 5px;
 }
 
-.rounded{
+.rounded
+  display: flex;
   width: 650px;
   height: 440;
   margin: auto;
