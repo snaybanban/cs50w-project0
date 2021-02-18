@@ -1,5 +1,45 @@
 $color: red;
 
+@media (min-width: 500px){
+    body {
+          background-color: #E7CBCB;
+    }
+    h1::before {
+      content: "Informate con Banban!";
+    }
+  }
+  
+  @media (max-width: 500px){
+    body {
+          background-color: #A8A3A3;
+    }
+    h1::before {
+      content: "Project0!";
+    }
+  }
+  
+  .container {
+    background-color: rgb(162, 187, 162);
+    display: ruby-base-container;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+.uno{
+    text-align: center;
+    background-color: #D0A97C;
+    color: $color;
+  }
+
+  .row > div {
+    font-size: 15px;
+    padding: 15px;
+    background-color: teal;
+    border: 1px solid black;
+}
+
 p{
     font-size: 20px;
     color: $color;
