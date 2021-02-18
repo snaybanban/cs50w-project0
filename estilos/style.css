@@ -34,20 +34,12 @@ h1{
   padding: 5px;
 }
 
-<<<<<<< HEAD
 .rounded{
-=======
-.rounded {
->>>>>>> 5f62b204b82f579df2e754f1d269655cba6371f2
   display: flex;
   width: 650px;
   height: 440;
   margin: auto;
-<<<<<<< HEAD
   min-width: 450px;
-=======
-   min-width: 450px;
->>>>>>> 5f62b204b82f579df2e754f1d269655cba6371f2
   max-height: 450px;
 }
 
@@ -85,5 +77,4 @@ ul {
 button {
   width: 150px;
   height: 50px;
-  
 }
