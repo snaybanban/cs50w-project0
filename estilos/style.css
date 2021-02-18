@@ -35,7 +35,6 @@ h1{
 }
 
 .rounded
-  display: flex;
   width: 650px;
   height: 440;
   margin: auto;
