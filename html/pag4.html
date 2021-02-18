@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/estilo.css">
+    <title>Pagina4</title>
+    <style>
+      @media (min-width: 500px){
+        body {
+              background-color: #E7CBCB;
+        }
+        h1::before {
+          content: "Informate con Banban!";
+        }
+      }
+      
+      @media (max-width: 500px){
+        body {
+              background-color: #A8A3A3;
+        }
+        h1::before {
+          content: "Project0!";
+        }
+      }
+      
+      h1{
+        text-align: center;
+        background-color: #D0A97C;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1> Page4</h1>
+      <a href="#nav"><button type="button" class="btn btn-primary">Navegar</button></a>
+      <br><br>
+    </div>
+    <ul class="pagination justify-content-center" style="margin:20px 0">
+      <li class="page-item"><a class="page-link" href="pag3.html">Anterior</a></li>
+      <li class="page-item"><a class="page-link" href="../index.html" id="nav">1</a></li>
+      <li class="page-item"><a class="page-link" href="pag2.html" id="nav">2</a></li>
+      <li class="page-item"><a class="page-link" href="pag3.html" id="nav">3</a></li>
+      <li class="page-item active"><a class="page-link" href="#" id="nav">4</a></li>
+      <li class="page-item disabled"><a class="page-link" href="#">Siguiente</a></li>
+    </ul>
+    <br><br>
+  </body>
+</html>

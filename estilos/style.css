@@ -1,0 +1,78 @@
+@media (min-width: 500px){
+  body {
+    background-image: url(../img/fondo.jpg); 
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    background-attachment:fixed;
+        
+  }
+  h1::before {
+    content: "Informate con Banban!";
+  }
+}
+
+@media (max-width: 500px){
+  body {
+        background-color: #A8A3A3;
+  }
+  h1::before {
+    content: "Project0!";
+  }
+}
+
+h1{
+  text-align: center;
+  background-color: #D0A97C;
+  color: red;
+}
+
+.in-h > div {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 5px;
+  padding: 5px;
+}
+
+.rounded{
+  width: 650px;
+  height: 440;
+  margin: auto;
+  min-width: 300px;
+}
+
+h2{
+  text-align: center;
+  background-color: black;
+  color: #D0A97C;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div{
+  display: block;
+  margin: auto;
+}
+
+.articulo{
+  background: rgba(255,255,255,0.70);
+  box-shadow: 0 0 20px 1px rgb(0 0 0 / 30%);
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+  width: 90%;
+  text-align: justify;
+}
+
+p::selection {
+  color: rgba(0, 162, 255, 0.63);
+  background-color: green;
+}
+
+ul {
+  color: blue;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+}
