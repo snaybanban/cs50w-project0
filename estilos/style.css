@@ -34,13 +34,15 @@ h1{
   padding: 5px;
 }
 
-.rounded{
-  display: flex;
-  width: 650px;
-  height: 440;
+.rounded {
+  width: 65%;
+  height: 44%;
   margin: auto;
-  min-width: 450px;
-  max-height: 450px;
+  max-width: 100%;
+}
+
+.rounded:hover{
+  opacity: 0.8;
 }
 
 h2{
@@ -72,9 +74,4 @@ p::selection {
 
 ul {
   color: blue;
-}
-
-button {
-  width: 150px;
-  height: 50px;
 }

@@ -1,8 +1,18 @@
 $color: red;
 
+%message {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 50px;
+}
+
 @media (min-width: 500px){
     body {
-          background-color: #E7CBCB;
+          background-color: #e1faf9; 
     }
     h1::before {
       content: "Informate con Banban!";
@@ -11,7 +21,29 @@ $color: red;
   
   @media (max-width: 500px){
     body {
-          background-color: #A8A3A3;
+          background-color: #E7CBCB; 
+    }
+    h1::before {
+      content: "Project0!";
+    }
+  }
+
+  @media (min-width: 500px){
+    .estilo2 {
+      background-image: url(../img/fondo2.jpg); 
+      background-position:center; 
+      background-repeat: no-repeat; 
+      background-size: 100% 100%; 
+      background-attachment:fixed;
+    }
+    h1::before {
+      content: "Informate con Banban!";
+    }
+  }
+  
+  @media (max-width: 500px){
+    .estilo2 {
+          background-color: #E7CBCB;
     }
     h1::before {
       content: "Project0!";
@@ -19,7 +51,7 @@ $color: red;
   }
   
   .container {
-    background-color: rgb(162, 187, 162);
+    background-color: rgb(202, 226, 202);
     display: ruby-base-container;
     padding: 20px;
     grid-column-gap: 20px;
@@ -27,16 +59,22 @@ $color: red;
     grid-template-columns: auto auto;
 }
 
-.uno{
+h1{
     text-align: center;
     background-color: #D0A97C;
     color: $color;
   }
 
+  .data{
+    display: flex;
+    height: 150PX;
+    margin: auto;
+  }
+
   .row > div {
     font-size: 15px;
     padding: 15px;
-    background-color: teal;
+    background-color: rgb(133, 212, 212);
     border: 1px solid black;
 }
 
@@ -44,4 +82,49 @@ p{
     font-size: 20px;
     color: $color;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.success {
+  @extend %message;
+  background-color: #fff9f9;
+}
+
+.titu-p3{
+  font-family: "Berlin Sans FB";
+  text-align: center;
+}
+
+.sub-p3{
+  color: #D06262;
+  size: 5.5;
+  text-align: center;
+}
+
+.articulo2{
+  background: rgba(255,255,255,0.70);
+  box-shadow: 0 0 20px 1px rgb(0 0 0 / 30%);
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+  margin: auto;
+  width: 90%;
+  text-align: justify;
+}
+
+.img-thumbnail{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  max-width: 100%;
+}
+
+.par1{
+  color: black;
+}
+
+.redes{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  max-width: 100%;
 }
