@@ -119,11 +119,30 @@ p {
   color: black;
 }
 
-.redes {
-  height: 300px;
-  width: 300px;
-  margin: auto;
-  max-width: 100%;
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.in-flex {
+  flex: 1;
+  text-align: justify;
+  min-width: 250px;
+}
+
+.in-flex:first-child {
+  flex: 2;
+  padding: 25px;
+  background-color: #f0f0f0;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.in-flex div {
+  padding: 25px;
+  background-color: #f0f0f0;
+  margin: 20px;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=estilo.css.map */
